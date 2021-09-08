@@ -123,7 +123,7 @@ header
     img
         display: block
         margin: 0 auto
-        margin-left: 173px
+        margin: 0 auto
         margin-top: 60px
     .benefits_title
         font-weight: bold
@@ -131,7 +131,6 @@ header
         line-height: 29px
         text-align: center
         color: #0D0D0D
-        margin-left: 100px
         margin-top: 35px
     .benefits_text
         font-weight: 300
@@ -139,7 +138,6 @@ header
         line-height: 18px
         text-align: center
         color: #0D0D0D
-        margin-left: 95px
         margin-top: 20px
         a
             text-decoration-line: underline
@@ -222,6 +220,7 @@ header
         display: flex
         flex-direction: row
         justify-content: center
+        padding-bottom: 25px
 
         .tab1
             margin-right: 9px
@@ -291,48 +290,68 @@ header
             span
                 color: #FFFFFF
 
-.row1
-    display: flex
-    flex-direction: row
-    justify-content: center
-    padding-top: 19px
+
 .row
     display: flex
     flex-direction: row
-    justify-content: center
-    padding-top: 57px
+    padding-top: 25px
+    max-width: 970px
+    margin: 0 auto
 
 .card
     width: 303px
     height: 442px
     border: 2px solid #E8E8E8
     margin-right: 20px
-    img
-        height: 200px
-        width: 140px
-        margin-left: 24%
-    h3
-        font-weight: bold
-        font-size: 16px
-        text-align: center
-        color: #0D0D0D
-        padding-top: 15px
-    .card-title
-        font-weight: 300
-        font-size: 14px
-        line-height: 22px
-        text-align: center
-        color: #0D0D0D
-        padding-top: 15px
-    .more
-        font-weight: 500
-        font-size: 14px
-        line-height: 14px
-        text-align: center
-        text-decoration-line: underline
-        color: #C70101
-        cursor: pointer
-        user-select: none
+    margin-top: 20px
+    .show
+        display: block
+        min-height: 340px
+        .card-img
+            height: 200px
+            width: 140px
+            margin-left: 24%
+        h3
+            font-weight: bold
+            font-size: 16px
+            text-align: center
+            color: #0D0D0D
+            padding-top: 15px
+        .card-title
+            font-weight: 300
+            font-size: 14px
+            line-height: 22px
+            text-align: center
+            color: #0D0D0D
+            padding-top: 15px
+        .more
+            font-weight: 500
+            font-size: 14px
+            line-height: 14px
+            text-align: center
+            text-decoration-line: underline
+            color: #C70101
+            cursor: pointer
+            user-select: none
+    .hide
+        min-height: 340px
+        display: none
+        padding-top: 16px
+        ul
+            font-weight: 300
+            font-size: 17px
+            line-height: 21px
+            color: #555555
+            li
+                margin-top: 8px
+        .back-btn
+            font-weight: 500
+            font-size: 14px
+            text-align: center
+            text-decoration-line: underline
+            color: #C70101
+            cursor: pointer
+            margin-top: 75px
     .delimiter
         width: 260px
         height: 1px
